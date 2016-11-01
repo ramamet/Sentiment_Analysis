@@ -7,7 +7,9 @@ Every day, we collect various news about the company through different sources l
         So concentrating and monitoring a particular stock is a complex task. Data collection and cleaning of the text data from the web sources are the key steps on Natural Language Processing (NLP) algorithms. We need to sort out positive and negative news with proper scoring pattern. In this work, I use R package "tm" for sentiment analysis with support of other packages for cleaning and plotting theme web mined data.
 
 ## Sentiment Analysis for "Crude Oil" @ 01/11/2016
+
         >> head(clean.head.google)
+        
         [1] "crude oil is getting slammed after another opec meeting flop  business insider"                                 
         [2] "iran eyes new crude oil buyers  press tv"                                                                       
         [3] "heres what a bunch of analysis is saying about crude oil right now  business insider"                           
