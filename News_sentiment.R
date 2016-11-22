@@ -102,6 +102,7 @@ clean.text = function(x)
    # remove graphical characters
    #x= gsub("[:graph:]","", x)
    # remove tabs
+	
    #x = gsub("[ |\t]{2,}", "", x)
    # remove blank spaces at the beginning
    #x = gsub("^ ", "", x)
@@ -138,6 +139,7 @@ tryTolower = function(x)
 
 ##########################################################
 #positive and negative wordlist from internet 
+#Natural Language Processing Data sets for sentiment analysis	  
 pos <-scan('https://raw.githubusercontent.com/jeffreybreen/twitter-sentiment-analysis-tutorial-201107/master/data/opinion-lexicon-English/positive-words.txt', what='character', comment.char=';')
 neg <- scan('https://raw.githubusercontent.com/jeffreybreen/twitter-sentiment-analysis-tutorial-201107/master/data/opinion-lexicon-English/negative-words.txt', what='character', comment.char=';')
 
